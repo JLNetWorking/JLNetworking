@@ -1,0 +1,2 @@
+# JLNetworkingManager
+Encapsulation Network
