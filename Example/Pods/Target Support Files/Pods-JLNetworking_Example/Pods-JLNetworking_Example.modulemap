@@ -1,0 +1,6 @@
+framework module Pods_JLNetworking_Example {
+  umbrella header "Pods-JLNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
