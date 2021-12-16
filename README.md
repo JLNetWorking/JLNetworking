@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # JLNetworkingManager
 Encapsulation Network
-=======
-# JLNetworking
 
 [![CI Status](https://img.shields.io/travis/Jerry/JLNetworking.svg?style=flat)](https://travis-ci.org/Jerry/JLNetworking)
 [![Version](https://img.shields.io/cocoapods/v/JLNetworking.svg?style=flat)](https://cocoapods.org/pods/JLNetworking)
@@ -31,4 +28,3 @@ Jerry, yujunliu@laihua.com
 ## License
 
 JLNetworking is available under the MIT license. See the LICENSE file for more info.
->>>>>>> 54159a9efad712a4563d510287486b78ba852703
