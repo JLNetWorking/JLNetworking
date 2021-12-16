@@ -1,10 +1,11 @@
 PODS:
   - Alamofire (5.4.4)
   - HandyJSON (5.0.2)
-  - JLNetworking (0.1.0):
+  - JLNetworking (0.1.1):
     - HandyJSON
     - Moya/RxSwift
     - RxCocoa
+    - SnapKit
     - SwiftyJSON
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
@@ -17,6 +18,7 @@ PODS:
   - RxRelay (6.2.0):
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
+  - SnapKit (5.0.1)
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
@@ -30,6 +32,7 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SnapKit
     - SwiftyJSON
 
 EXTERNAL SOURCES:
@@ -39,11 +42,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  JLNetworking: 32cd73c60f6b1b9563d5c0d6d81a9416e9a5a677
+  JLNetworking: c9d4d5c5b79cee7487aa568f73dcb491d53feafd
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
 PODFILE CHECKSUM: e92695321f14cd87ab768e389a27d4a0ed1b33c6

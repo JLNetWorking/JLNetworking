@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLNetworking'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JLNetworking.'
 
 # This description is used to generate tags and improve search results.
@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
   s.dependency 'RxCocoa'
   s.dependency 'HandyJSON'
   s.dependency 'SwiftyJSON'
+  s.dependency 'SnapKit'
   
 end

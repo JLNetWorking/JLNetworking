@@ -20,6 +20,8 @@ public protocol JLTargetType: TargetType {
     var parameterEncoding: ParameterEncoding { get }
     /// 获取路径
     var keyPath: String? { get }
+    /// 显示菊花器
+    var showHUD: Bool { get }
 }
 
 public extension JLTargetType {
@@ -62,6 +64,11 @@ public extension JLTargetType {
     /// 网络超时
     var timeoutInterval: TimeInterval {
         return 30
+    }
+    
+    /// 是否显示菊花器
+    var showHUD: Bool {
+        return false
     }
     
 }

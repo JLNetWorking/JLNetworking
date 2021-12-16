@@ -24,8 +24,13 @@ public class JLNetworkManager<T: JLTargetType> {
     /// 失败Block
     public typealias ErrorInfoBlock = ((ErrorInfo) -> Void)?
     
+    
+    
     /// Moya的管理者
-    private let privider = MoyaProvider<T>(endpointClosure: endpointMapping, callbackQueue: nil, plugins: [])
+    private let privider = MoyaProvider<T>(endpointClosure: endpointMapping, callbackQueue: nil, plugins: [JLNetworkManager.shared.plugin])
+    
+    private var plugin: PluginType = JLPlugin(showHUD: false)
+    
     
     
     /// 取出保存的NetworkingManager
@@ -47,6 +52,7 @@ public class JLNetworkManager<T: JLTargetType> {
                               onSuccess: SuccessInfoBlock = nil,
                               onErrorInfo: ErrorInfoBlock = nil,
                               onError: ErrorBlock = nil) -> Cancellable {
+        JLNetworkManager.shared.plugin = JLPlugin(showHUD: target.showHUD)
         return JLNetworkManager.shared.privider.request(target, callbackQueue: nil) { progress in
             // 进度回调
             if let progressBlock = onProgress {
