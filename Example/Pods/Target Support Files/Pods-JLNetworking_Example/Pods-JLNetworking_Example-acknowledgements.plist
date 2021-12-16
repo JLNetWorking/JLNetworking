@@ -124,7 +124,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>JLNetworking</string>
+			<string>JLNetworkingManager</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

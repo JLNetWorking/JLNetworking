@@ -46,7 +46,7 @@
 		B018F6457FE1BF697F726EDA /* Pods-JLNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-JLNetworking_Tests/Pods-JLNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C79B9E4C368E4696DF429E9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D17C446B30C4B3FE31878A4D /* Pods-JLNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JLNetworking_Tests/Pods-JLNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2C9577C39EEDB351C201D6B /* JLNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLNetworking.podspec; path = ../JLNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2C9577C39EEDB351C201D6B /* JLNetworkingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLNetworkingManager.podspec; path = ../JLNetworkingManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E2C9577C39EEDB351C201D6B /* JLNetworking.podspec */,
+				E2C9577C39EEDB351C201D6B /* JLNetworkingManager.podspec */,
 				6E1B00A1CB525E74E332BE6A /* README.md */,
 				C79B9E4C368E4696DF429E9A /* LICENSE */,
 			);
@@ -317,7 +317,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-JLNetworking_Example/Pods-JLNetworking_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/JLNetworking/JLNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JLNetworkingManager/JLNetworkingManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
@@ -329,7 +329,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLNetworkingManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
