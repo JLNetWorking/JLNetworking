@@ -1,0 +1,6 @@
+framework module JLNetworkingManager {
+  umbrella header "JLNetworkingManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

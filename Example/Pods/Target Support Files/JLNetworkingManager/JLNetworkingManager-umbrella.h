@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double JLNetworkingVersionNumber;
-FOUNDATION_EXPORT const unsigned char JLNetworkingVersionString[];
+FOUNDATION_EXPORT double JLNetworkingManagerVersionNumber;
+FOUNDATION_EXPORT const unsigned char JLNetworkingManagerVersionString[];
 
